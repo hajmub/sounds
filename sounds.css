@@ -2,8 +2,10 @@
 
  body {
     margin: 0;
-    background-color: #ECAE7D ;
-    font-family: Butler;
+    background-color: black ;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-size: 72px;
+    font-weight: 500;
   }
 
     svg {
@@ -14,28 +16,30 @@
 
   
   .intro {
-    font-family: Butler;
+    font-family: "neue-haas-grotesk-display", sans-serif;
     font-size: 70px;
-    font-weight: 200;
+    font-weight: 500;
+    font-style: normal;
     padding: 0;
     line-height: 160%;
-    color: #E83119;
+    color: #ddff48;
     position: relative;
-    text-shadow: 2px 2px #fceded;
+    max-width: 65vw;
   }
   
   .intro2 {
-    max-width: 70vw;
+    max-width: 50vw;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      font-family: Butler;
+      font-family: "neue-haas-grotesk-display", sans-serif;
       text-align: center;
-      font-size: 20px;
+      font-size: 30px;
       font-weight: 100;
       padding: 0;
-      line-height: 150%;
+      line-height: 130%;
+      color: white;
     }
   
     .demo-bg {
@@ -74,8 +78,8 @@
   }
   
   .menu {
-    font-family: Butler;
-    font-weight: 400;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 600;
     font-size: 35px;
     display: flex;
     list-style: none;
@@ -91,13 +95,13 @@
   }
   
   .menu li a {
-    color: #007082;
+    color: #ffffff;
     text-align: center;
     text-decoration: none;
   }
   
   .menu a:hover {
-    color: #ED6335;
+    color: #ddff48;
   }
 
   .menu a.active {
@@ -136,7 +140,7 @@
   }
 
   button {
-    background-color: #8DB5AC;
+    background-color: #5526cb;
     color: white;
     padding: 25px 32px;
     text-align: center;
@@ -149,10 +153,10 @@
     border-radius: 40px;
     border-color: #FFFFFF;
     box-shadow: 4px 4px rgb(255, 153, 0);
-    font-family: butler;
+    font-family: ;
 }
 button:hover {
-    background-color: hsl(29, 93%, 49%);
+    background-color: hsl(161, 93%, 49%);
     box-shadow: 0 5px rgb(95, 74, 39);
     transform: translateY(4px);
      }
@@ -178,7 +182,7 @@ li{
     display: inline-block;
     line-height: 2em;
     vertical-align: middle;
-    font-family: butler;
+    font-family: "neue-haas-grotesk-display", sans-serif;
     font-weight: 400;
     }
 
@@ -188,7 +192,7 @@ hr {margin-left:  25%;
 p{
     display: flex;
     justify-content: center;
-    font-family: Butler;
+    font-family: "neue-haas-grotesk-display", sans-serif;
     font-weight: 100;
 }
 
@@ -200,7 +204,7 @@ footer {
     font-family: Butler;
     font-size: 12px;
     font-weight: 300;
-    background-color: #e79e64;
+    background-color: black;
     color: white; 
 }
 
