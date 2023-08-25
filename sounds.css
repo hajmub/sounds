@@ -6,6 +6,8 @@
     font-family: "neue-haas-grotesk-display", sans-serif;
     font-size: 72px;
     font-weight: 500;
+    display: flex;
+    flex-direction: column;
   }
 
     svg {
