@@ -1,0 +1,126 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .bg {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    z-index: 0;
+  }
+
+  .hoverable-text {
+    cursor: pointer;
+}
+    .glitch {
+      font-size: 20px;
+      font-family: "neue-haas-grotesk-display", sans-serif;
+      font-weight: 200;
+      line-height: 1.5;
+      color: white;
+    }
+    .glitch:hover:before,
+    .glitch:hover:after {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      z-index: -1;
+      content: "'11:11'";
+    }
+    .glitch:hover:before {
+      top: 49.5%;
+      left: 49.5%;
+      color: rgba(233, 30, 99, 0.8);
+      animation: distort1 300ms linear infinite;
+      content: '11:11';
+    }
+    
+    .glitch:hover:after {
+          top: 50.5%;
+          left: 50.5%;
+          color: rgb(0, 183, 255);
+          animation: distort2 300ms linear infinite;
+          content: '11:11';
+          }
+
+            @keyframes distort1 {
+              0% {
+                top: 49.5%;
+                left: 49.5%;
+            }
+              12.5% {
+                top: 49.5%;
+                left: 50%;
+            }
+              25% {
+                top: 49.5%;
+                left: 50.5%;
+            }
+              37.5% {
+                top: 50%;
+                left: 50.5%;
+            }
+              50% {
+                top: 50.5%;
+                left: 50.5%;
+            }
+              62.5% {
+                top: 50.5%;
+                left: 50%;
+            }
+              75% {
+                top: 50.5%;
+                left: 49.5%;
+            }
+              87.5% {
+                top: 50%;
+                left: 49.5%;
+            }
+              100% {
+                top: 49.5%;
+                left: 49.5%;
+            }
+            }
+            
+            @keyframes distort2 {
+              0% {
+                top: 50.5%;
+                left: 50.5%;
+            }
+              12.5% {
+                top: 50%;
+                left: 50.5%;
+            }
+              25% {
+                top: 49.5%;
+                left: 50.5%;
+            }
+              37.5% {
+                top: 49.5%;
+                left: 50%;
+            }
+              50% {
+                top: 49.5%;
+                left: 49.5%;
+            }
+              62.5% {
+                top: 50%;
+                left: 49.5%;
+            }
+              75% {
+                top: 50.5%;
+                left: 49.5%;
+            }
+              87.5% {
+                top: 50.5%;
+                left: 50%;
+            }
+              100% {
+                top: 50.5%;
+                left: 50.5%;
+            }
+            }
+          
