@@ -3,6 +3,15 @@
     outline: none;
   }
 
+  body {
+    margin: 0;
+    background-color: black ;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+  }
+
   .bg {
     position: relative;
     display: flex;
@@ -17,33 +26,38 @@
     cursor: pointer;
 }
     .glitch {
-      font-size: 20px;
+      max-width: 65vw;
       font-family: "neue-haas-grotesk-display", sans-serif;
-      font-weight: 200;
-      line-height: 1.5;
+      font-weight: 400;
       color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 30px;
     }
     .glitch:hover:before,
     .glitch:hover:after {
       position: absolute;
       transform: translate(-50%, -50%);
       z-index: -1;
-      content: "'11:11'";
+      content: 'This is a mini historical archive where you can experience tiny bits of history through defining soundbites'
     }
     .glitch:hover:before {
-      top: 49.5%;
-      left: 49.5%;
+      top: 60.5%;
+      left: 60.5%;
       color: rgba(233, 30, 99, 0.8);
-      animation: distort1 300ms linear infinite;
-      content: '11:11';
+      animation: distort1 500ms linear infinite;
+      content: 
+      'This is a mini historical archive where you can experience tiny bits of history through defining soundbites'
     }
     
     .glitch:hover:after {
-          top: 50.5%;
-          left: 50.5%;
-          color: rgb(0, 183, 255);
-          animation: distort2 300ms linear infinite;
-          content: '11:11';
+          top: 60.5%;
+          left: 60.5%;
+          color: rgb(3, 140, 164);
+          animation: distort2 500ms linear infinite;
+          content: 'This is a mini historical archive where you can experience tiny bits of history through defining soundbites'
           }
 
             @keyframes distort1 {
